@@ -27,8 +27,7 @@ def format_content(content):
     :return: The formatted content.
     """
     if content is not None:
-        formatted_content = '\\x' + '\\x'.join(format(byte, '02x') for byte in content)
-        return formatted_content
+        return '\\x' + '\\x'.join(format(byte, '02x') for byte in content)
     else:
         return None
 
