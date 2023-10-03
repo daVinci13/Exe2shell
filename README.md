@@ -1,4 +1,2 @@
-# Exe2shell
-Converts exe to shellcode.
-
-USAGE: python exe2shell.py file.exe
+# INFORMATION
+This script converts your executable to shellcode. It is well commented and written for educational purposes only.
