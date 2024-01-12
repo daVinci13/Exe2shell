@@ -10,10 +10,9 @@ Run the program with python3 exe2shell.py test_file.exe.
 Replace exe2shell.py and test_file.exe with your actual file names. If you encounter any errors during execution, the error message should give you information about what went wrong. You can then modify your code accordingly and try again.
 
 Example usage:
-
+```
 $ python3 exe2shell.py my_cool_file.exe
-\x48\x65\x6c\x6c\x6f\x2c\x20\x77\x6f\x72\x6c\x64\x21
-
+```
 🦀 Rust Version 🦀
 Here’s how to use the Rust version of exe2shell:
 
@@ -24,9 +23,8 @@ Run the program with ./exe2shell test_file.exe.
 Replace exe2shell.rs, exe2shell, and test_file.exe with your actual file names. If you encounter any errors during compilation, the error message should give you information about what went wrong. You can then modify your code accordingly and try again.
 
 Example usage:
-
+```
 $ rustc exe2shell.rs
 $ ./exe2shell my_cool_file.exe
-\x48\x65\x6c\x6c\x6f\x2c\x20\x77\x6f\x72\x6c\x64\x21
-
+```
 That’s it! Now go forth and convert some executables! 🚀
